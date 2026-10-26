@@ -1,3 +1,4 @@
+-- Active: 1776436761468@@localhost@3306@mysql
 -- ============================================================================
 -- Praktikum 5: Implementasi Manajemen Data dan REST API Menggunakan PHP dan MySQL
 -- Skrip Pembuatan Basis Data dan Tabel Mahasiswa
@@ -26,4 +27,3 @@ INSERT INTO mahasiswa (npm, nama, program_studi, angkatan, email) VALUES
 ('240101015', 'Budi Santoso', 'Teknologi Informasi', 2024, 'budi.santoso@example.com'),
 ('240101020', 'Dewi Lestari', 'Rekayasa Perangkat Lunak', 2024, 'dewi.lestari@example.com')
 ON DUPLICATE KEY UPDATE npm=npm;
-
